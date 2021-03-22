@@ -17,14 +17,14 @@ function Cocktail_Item({name, matchScore, image, description, ingredients}){
                 }
             }}>
         <div className="Cocktail_Item">
-            <h2 className="name">{name}</h2>
+            <h3 className="name">{name}</h3>
             <h4 className = "matchScore">Match Score: {matchScore}</h4>
 
             <div className="content">
                 <img src ={image}/>
                 <div className= "textContent">
                     <div className="description">Description: {description}</div>
-                    <li className= "ingredients">Ingredients: {ingredients}</li>
+                    <div className= "ingredients">Ingredients: {ingredients}</div>
                 </div>
             </div>  
         </div>  
